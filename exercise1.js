@@ -6,17 +6,17 @@ function q1() {
     if(a > 1) {
         a = 3;
     }
-    alert(a);
+    alert(a); //a = 3;
 }
 
 //#2
 var a = 0;
 function q2() {
-    a = 5;
+    a = 5; //will return undefined
 }
 
 function q22() {
-    alert(a);
+    alert(a); //returns a=5;
 }
 
 
@@ -27,20 +27,20 @@ function q3() {
 
 
 function q32() {
-    alert(a);
+    alert(a); //"hello"
 }
 
 //#4
 var a = 1;
 function q4() {
     var a = "test";
-    alert(a);
+    alert(a); //"test";
 }
 
 //#5
 var a = 2;
 if (true) {
     var a = 5;
-    alert(a);
+    alert(a); //return 5
 }
-alert(a);
+alert(a); //returns 5
