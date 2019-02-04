@@ -32,11 +32,11 @@ function moveCommand(direction) {
 }
 
 //#2 return value when moveCommand("forward");
-
+window.moveCommand("forward"); //undefined
 //#3 return value when moveCommand("back");
-
+window.moveCommand("back"); //you arrived home
 //#4 return value when moveCommand("right");
-
+window.moveCommand("right"); //you found a river
 //#5 return value when moveCommand("left");
-
+window.moveCommand("left"); //undefined
 //BONUS: practice makes perfect. Go and write your own switch function. It takes time to get used to the syntax!
