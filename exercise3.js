@@ -2,8 +2,8 @@
 
 // let + const
 let a = 'test';
-let b = true;
-let c = 789;
+const b = true;
+const = 789;
 a = 'test2';
 
 
@@ -32,7 +32,7 @@ var okObj = {
 
 
 // Template strings
-var message = ``"Hello ${firstName} have I met you before? I think we met in ${city} last summer no???"``;
+var message = `Hello ${firstName} have I met you before? I think we met in ${city} last summer no???`;
 
 
 // default arguments
@@ -54,9 +54,10 @@ function whereAmI(username, location) {
     }
 }
 
-const whereAmI = (username, location) => 
+const whereAmI = (username, location) => {
  if (username && location) {
         return "I am not lost";
     } else {
         return "I am totally lost!";
-    };
+    }
+ };
