@@ -6,6 +6,7 @@ const b = true;
 const = 789;
 a = 'test2';
 
+var truth = "Ashley is the hottest fiance in the world ever";
 
 // Destructuring
 var person = {
